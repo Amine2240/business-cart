@@ -42,13 +42,13 @@ export default function Landingpage() {
             </div>
             </Link>
           </div>
-          <p className="text text-lg">
+          <p className="text text-lg w-96">
             Our team of experts uses a methodology to identify the credit cards
             most likely to fit your needs. We examine annual percentage
             rates,annual fees.
           </p>
         </div>
-        <div className=" image1">
+        <div className="image1">
           <section></section>
           <img src={image1} alt="" />
         </div>
