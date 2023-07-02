@@ -1,0 +1,47 @@
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: #00071b2a;
+  backdrop-filter: blur(10px);
+  z-index: 20;
+  top: 0;
+
+}
+
+nav ul {
+  width: 40%;
+}
+
+@keyframes slideIn {
+  0%{
+    transform: translateY(-500px);
+  }
+  100%{
+    transform: translateY(000px);
+  }
+  
+}
+
+nav ul li div {
+  background-color: aqua;
+  height: 3px;
+  border-radius: 10px;
+  width: 0px;
+  transition: all ease .2s;
+  margin: 0 auto;
+}
+
+nav ul li:hover div {
+
+  width: 100%;
+}
+
+nav ul li p {
+  color: rgba(255, 255, 255, 0.805);
+}
+
+nav ul li:hover p {
+  color: white;
+  text-shadow: 0px 0px 20px white;
+}
+

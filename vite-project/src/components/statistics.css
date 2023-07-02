@@ -1,0 +1,5 @@
+div span{
+  background-image: linear-gradient(to top right, aqua,rgba(255, 217, 0, 0.192));
+  -webkit-background-clip: text;
+  color: transparent;
+}

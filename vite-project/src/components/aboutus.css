@@ -1,0 +1,46 @@
+.quotes {
+  color: aqua;
+  filter: brightness();
+}
+
+section {
+  height: 700px;
+  width: 300px;
+  background-color: rgba(0, 229, 255, 0.225);
+  border-radius: 50%;
+  position: absolute;
+  right: -70px;
+  top: 2700px;
+  filter: blur(100px);
+  opacity: .8;
+}
+
+.opinion {
+
+  border-radius: 20px;
+  width: 380px;
+  padding-left: 20px;
+  height: 320px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 10;
+}
+
+.opinion:hover {
+  background: linear-gradient(to top left, rgba(0, 0, 0, 0.485), rgba(255, 255, 255, 0.249));
+
+}
+.service{
+  border-radius: 20px;
+  background: linear-gradient(to top right, rgba(0, 0, 0, 0.64), rgba(255, 255, 255, 0.249));
+  width: 80%;
+  margin: 0 auto;
+  height: 250px;
+}
+
+.writing{
+  width: 450px;
+  color: rgba(255, 255, 255, 0.481);
+margin-top: 40px;
+font-size: 20px;
+}

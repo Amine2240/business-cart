@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image1 {
+  width: 120%;
+  position: relative;
+
+}
+
+.image1 img {
+  opacity: .9;
+}
+
+.image1 section {
+  position: absolute;
+  background-color: rgba(105, 183, 255, 0.275);
+  width: 400px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  filter: blur(80px);
+  z-index: 0;
+}
+
+.container1 {
+  height: 90vh;
+}
+
+.div1 {
+  background: linear-gradient(#272727, #11101D);
+}
+
+.iconpercent {
+  color: aqua;
+}
+
+.container1 .generation {
+  background: linear-gradient(to right, rgb(0, 255, 255), rgba(0, 237, 237, 0.356));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.started {
+  border-radius: 20px;
+  background-color: #00081e;
+  border: none;
+
+}
+
+.provisoire {
+  height: 170px;
+  width: 170px;
+  background-image: linear-gradient(to bottom left, rgb(0, 238, 238), rgba(255, 255, 255, 0.574));
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2 {
+  width: 800px;
+}
+
+.title {
+  line-height: 1.5%;
+  padding-bottom: 40px;
+  margin-bottom: 10px;
+
+}
+
+.getstart {
+  background-image: linear-gradient(to top, aqua, white);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.container1 .sectionblur {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.26);
+  width: 300px;
+  height: 400px;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.text {
+  width: 400px;
+  color: rgba(255, 255, 255, 0.585);
+}

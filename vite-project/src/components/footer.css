@@ -1,0 +1,27 @@
+.footer{
+  width: 100%;
+  
+}
+.contain{
+  background-color: #1211133b;
+  height: 48vh;
+}
+
+.facil{
+  background-color: gray;
+  width: 78%;
+  margin:  15px auto;
+  height: 1px;
+  background-color: rgb(97, 97, 97);
+}
+.goup{
+  cursor: pointer;
+  color: aqua;
+  bottom: 30px;
+  position: fixed;
+  right: 50px;
+  transition: all ease .5s;
+}
+.goup:hover{
+  background-color: rgba(0, 0, 0, 0.607);
+}

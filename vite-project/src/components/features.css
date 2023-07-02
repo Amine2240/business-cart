@@ -1,0 +1,46 @@
+.icons {
+  color: aqua;
+  background-color: rgba(0, 255, 255, 0.071);
+}
+
+.yaw {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.titre {
+  width: 600px;
+}
+
+.bouton {
+  background: linear-gradient(to top left, aqua, rgba(255, 255, 255, 0.658));
+}
+
+.forhover {
+  transition: all ease .5s;
+  border-radius: 20px;
+  padding: 20px;
+  background-image: transparent;
+  width: 500px;
+
+}
+
+
+.forhover:hover {
+  background-image: linear-gradient(to top left, rgb(0, 11, 26), rgba(255, 255, 255, 0.444) 200%);
+
+}
+
+.sectionblur {
+  height: 700px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  left: -100px;
+  top: 1300px;
+  filter: blur(100px);
+  opacity: .8;
+
+}
